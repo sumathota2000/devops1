@@ -1,0 +1,12 @@
+git pull
+
+get the latest commit from remote to local
+
+$ git pull
+
+$ git status
+
+$ ls
+
+$ git log
+_______________
