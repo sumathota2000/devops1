@@ -6,44 +6,26 @@ git clone
     Example: https://github.com/sumathota2000/devops1.git
 
 
-
-User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
 $ git clone https://github.com/sumathota2000/devops1.git
-Cloning into 'devops1'...
-warning: You appear to have cloned an empty repository.
 
-User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
-$ cd devopsclass1/
-bash: cd: devopsclass1/: No such file or directory
 
-User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
+
 $ cd devops1
 
-User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+
 $ cd ..
 
-User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
 $ git status
-fatal: this operation must be run in a work tree
 
-User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
+
 $ cd devops1/
 
-User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
 $ git status
-On branch main
 
-No commits yet
-
-nothing to commit (create/copy files and use "git add" to track)
-
-User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
 $ cd ..
 
-User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
 $ cd devops1/
 
-User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
 $ clear
 
 _____________________________________________________________________________
