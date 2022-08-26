@@ -1,1 +1,208 @@
-created about us page
+GIT CLONE
+
+# Basic commands
+git clone
+    Clone entire repository to local
+    Example: https://github.com/sumathota2000/devops1.git
+
+
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
+$ git clone https://github.com/sumathota2000/devops1.git
+Cloning into 'devops1'...
+warning: You appear to have cloned an empty repository.
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
+$ cd devopsclass1/
+bash: cd: devopsclass1/: No such file or directory
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
+$ cd devops1
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ cd ..
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
+$ git status
+fatal: this operation must be run in a work tree
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
+$ cd devops1/
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ cd ..
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1 (BARE:master)
+$ cd devops1/
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ clear
+
+_____________________________________________________________________________
+to create the files
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ ls
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ notepad homepage
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ touch contactpage.txt
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ touch suma
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ rm suma
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ ls
+contactpage.txt  homepage.txt
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ rm contactpage
+rm: cannot remove 'contactpage': No such file or directory
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ rm contactpage.txt
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ ls
+homepage.txt
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ touch contactpage.txt
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ vi contactpage.txt
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ vi contactpage.txt
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ ls
+contactpage.txt  homepage.txt
+
+User@DESKTOP-KK3A8MM MINGW64 ~/Downloads/DEVOPS CLASS 1/devops1 (main)
+$ clear
+________________________________________________________________________________________________
+git add
+
+git add
+    Use to add the files
+
+        git add file1
+        git add file1 file2
+        git add .
+
+
+
+$ git status ....to check the files created
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        contactpage.txt
+        homepage.txt
+
+$ git add filename ....to add individually
+
+$ git rm --cached contactpage.txt ....to delete individually
+
+$ git add .  (to add all the files) or $ git add contactpage.txt homepage.txt
+
+
+$ git rm --cached contactpage.txt homepage.txt or whatever the file name to remove together
+
+$ git status to check the status
+
+__________________________________________________________________________________________________________________
+
+git commit
+
+
+ git commit -m singleword
+        git commit -m "double word"
+
+
+$ git commit -m practice_finished or some file name which connects with _
+
+or
+
+$ git commit -m "practice finished" or some file name in apostrophe""
+
+$ git status
+
+$ git --help ....for history
+
+$ git log ....to check no: of commit's
+___________________________________________________________________________________________________________________
+
+git push
+
+push the latest commit to remote from local
+
+$ git push will show all the commits in the repository
+
+user name and password will be asked once the git push is done 
+
+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
+
+__________________________________________________________________________________________________________________
+git pull
+
+get the latest commit from remote to local
+
+$ git pull
+
+$ git status
+
+$ ls
+
+$ git log
+____________________________________________________________________________________________________________________
+
+git init
+
+git remote
+        git remote 
+        git remote get-url origin to know the url
+        git remote add origin https://github.com/ghanitutorsbot/DEVOPS_NOTES.git
+
+
+
+to create non git folder into git
+
+
+$ git init
+
+$ git status
+
+$ git add .
+
+$ git commit -m added_firstdayclass
+
+create the new repository
+
+copy url
+
+$ git remote add origin https://github.com/sumathota2000/initpractice.git
+
+
+$ git push --set-upstream origin master  to push
+
+
+
+
+
